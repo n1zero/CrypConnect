@@ -286,7 +286,7 @@ namespace CrypConnect
           break;
         }
       }
-
+     Console.WriteLine(purchaseAmount + " : " + quantity);
       return (purchaseAmount, quantity);
     }
 

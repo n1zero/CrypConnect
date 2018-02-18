@@ -203,7 +203,7 @@ namespace CrypConnect
       Coin quoteCoin,
       Coin baseCoin)
     {
-      if (coinToTickerLower.TryGetValue(quoteCoin, out string quoteCoinTicker) == false
+      if(coinToTickerLower.TryGetValue(quoteCoin, out string quoteCoinTicker) == false
         || coinToTickerLower.TryGetValue(baseCoin, out string baseCoinTicker) == false)
       {
         return null;

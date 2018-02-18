@@ -10,3 +10,6 @@
 	path = CryptopiaApi-Csharp
 	url = https://github.com/hardlydifficult/CryptopiaApi-Csharp.git
 	branch = master
+[submodule "Nethereum"]
+	path = Nethereum
+	url = https://github.com/Nethereum/Nethereum.git
